@@ -4,7 +4,7 @@ import TopNavigationRightMenu from './topNavigation/TopNavigationRightMenu'
 
 export default function TopNavigation() {
   return (
-    <div>
+    <div style={{display: 'flex', justifyContent: 'space-between'}}>
       <TopNavigationLeftMenu />
       <TopNavigationRightMenu />
       </div>

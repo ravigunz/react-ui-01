@@ -8,9 +8,11 @@ export default function Homepage() {
   return (
     <div>
         <TopNavigation />
+        <div style={{display: 'flex', justifyContent: 'space-between'}}>
         <LeftMenu />
         <MainDashboard />
         <ChatLayout />
+        </div>
     </div>
   )
 }
